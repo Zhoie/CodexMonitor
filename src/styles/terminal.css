@@ -70,6 +70,10 @@
   white-space: nowrap;
 }
 
+.terminal-tab:hover:not(:disabled) {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
 .terminal-tab.active {
   color: var(--text-stronger);
   border-color: var(--border-strong);
